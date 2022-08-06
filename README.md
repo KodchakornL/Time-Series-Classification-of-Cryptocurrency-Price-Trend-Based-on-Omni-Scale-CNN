@@ -51,10 +51,10 @@ Table 1 shows the Wilcoxon signed rank test with Holm's alpha (5%) Pairwise coun
 
 From Table 2, the accuracy f1-score precision recall roc auc shows that the model performed very well in some currencies: XRP, LTC, DOT, LINK.
 
-##  Suggestions
+## Suggestions
 The OS-block can be applied to other TSC models such as the OS-CNN ensemble, for example, and if you add Open Price, Max Price, Min Price, you can add dimensions to other multivariate TSC model analysis.
 
-## Summary of research results
+## Conclusion
 In overall comparison, the walk forward data preparation method performed better than the data preparation method. Normal data extraction that extracts train, validation, test data. Experiments show that OS-CNN can perform better without tuning of feature extraction scales based on OS block and OS layer OS-CNN. Based on accuracy f1-score precision recall roc auc, in some cryptocurrencies XRP, LTC, DOT, LINK, when evaluating each replica accuracy using a Critical difference diagram, the OS-CNN model is in 3rd and 5th divisions. 1st and 2nd place were the FCN (50) vs ROCKET models. In the Wilcoxon signed rank test, the FCN (50) model won every model in all of the datasets' measurements.
 
 
