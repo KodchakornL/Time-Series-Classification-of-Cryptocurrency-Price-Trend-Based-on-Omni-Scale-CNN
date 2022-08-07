@@ -78,7 +78,7 @@ Table 1 shows the Wilcoxon signed rank test with Holm's alpha (5%) Pairwise coun
 <img src="https://github.com/KodchakornL/Time-Series-Classification-of-Cryptocurrency-Price-Trend-Based-on-Omni-Scale-CNN/blob/main/Slide_ppt/Picture1.12.png" width="2000" height="350" />  
 <img src="https://github.com/KodchakornL/Time-Series-Classification-of-Cryptocurrency-Price-Trend-Based-on-Omni-Scale-CNN/blob/main/Slide_ppt/Picture1.13.png" width="2000" height="350" />  
 <img src="https://github.com/KodchakornL/Time-Series-Classification-of-Cryptocurrency-Price-Trend-Based-on-Omni-Scale-CNN/blob/main/Slide_ppt/Picture1.14.png" width="2000" height="350" />  
-<img src="https://github.com/KodchakornL/Time-Series-Classification-of-Cryptocurrency-Price-Trend-Based-on-Omni-Scale-CNN/blob/main/Slide_ppt/Picture1.15.png" width="500" height="300" />  
+<img src="https://github.com/KodchakornL/Time-Series-Classification-of-Cryptocurrency-Price-Trend-Based-on-Omni-Scale-CNN/blob/main/Slide_ppt/Picture1.15.png" width="450" height="300" />  
 Table 2 shows the OS-CNN model results of accuracy, f1-score, precision, recall, roc_auc for all currencies for both Method 1 Extract and Method 2. Walk forward.  
     
 From Table 2, the accuracy f1-score precision recall roc auc shows that the model performed very well in some currencies: XRP, LTC, DOT, LINK.
