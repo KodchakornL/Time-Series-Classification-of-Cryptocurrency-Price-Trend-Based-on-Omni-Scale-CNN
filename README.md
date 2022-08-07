@@ -34,7 +34,7 @@ The target is displayed as one hot vector, if it is 1 it is trending up and if i
 **3.Data preparation**
 The data preparation method was used Method 1. Separate training data 70%, check data 15%, test data 15%. Method 2. Walk-forward optimization method as shown in picture 2.
   
-<img src="https://github.com/KodchakornL/Time-Series-Classification-of-Cryptocurrency-Price-Trend-Based-on-Omni-Scale-CNN/blob/main/Slide_ppt/Picture1.4.png" width="350" height="300" />  picture 2 Visualization of the Walk-forward method using data points in the train window (green box) and test window (red box), one by one. Both windows will move to the right. and start training again until the end of the time series window.  
+<img src="https://github.com/KodchakornL/Time-Series-Classification-of-Cryptocurrency-Price-Trend-Based-on-Omni-Scale-CNN/blob/main/Slide_ppt/Picture1.4.png" width="400" height="300" />  picture 2 Visualization of the Walk-forward method using data points in the train window (green box) and test window (red box), one by one. Both windows will move to the right. and start training again until the end of the time series window.  
   
 From Takuya Shintate, Lukáš Pichl [9] contains l , each span of width that will move continuously. Set equal to 10,080 minutes. Within this range, k is Window size equals 30, where t is the current time. Using the data points in the Train window, represented by a green box and a Test window with a red box, one by one. Both windows will move to the right. and then start training again until the end of the time series window. By separating 15% of the previous test data and using the walk-forward method above with 70% of the practice data and 15% of the check data.
   
