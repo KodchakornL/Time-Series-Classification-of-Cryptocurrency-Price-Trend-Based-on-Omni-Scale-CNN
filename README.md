@@ -53,11 +53,11 @@ Modeling with an OS block The OS-CNN model consists of 1. OS block with one GAP 
 ## Research results
 For model comparison, the investigator did not use hyperparameter adjustments in the validation set or test set for fair comparison. The researchers used the same hyperparameters as the basic 1D-CNN model FCN, unified for the entire dataset. In order to make the OS block model size the same as the FCN (Fully convolutional network) convolution layer model size, the OS-CNN experiment found no overfitting of all coins from the sample of both data preparation methods 1. Separate training data. 70 % Inspection data 15 % Test data 15% Method 2. Walk-forward optimization method is used as shown in picture 5.
   
-<img src="https://github.com/KodchakornL/Time-Series-Classification-of-Cryptocurrency-Price-Trend-Based-on-Omni-Scale-CNN/blob/main/Slide_ppt/Picture1.7.png" width="350" height="300" />  picture 5 Shows the fit of the OS-CNN model by comparing accuracy and loss.
+<img src="https://github.com/KodchakornL/Time-Series-Classification-of-Cryptocurrency-Price-Trend-Based-on-Omni-Scale-CNN/blob/main/Slide_ppt/Picture1.7.png" width="550" height="500" />  picture 5 Shows the fit of the OS-CNN model by comparing accuracy and loss.
   
 Of the two methods, an epoch of 500 was used according to research by Wensi Tang et al. [3] Fig. 6 increased accuracy and reduced loss compared to other TSC deep learning models on the dataset. Single variable data (Univariate dataset baselines) are 1. MACNN 2. INCEPTIONTIME 3. RESNET 4. ROCKET 5. FCN 6. FCN sets Receptive field to 16 (represented by FCN(16)) 7. FCN sets Receptive field to 50. (Represented by FCN(50)) To evaluate the time series model using the Critical difference diagram Wilcoxon signed rank test diagram with Holm's correction of Holm's alpha (5%). The resulting classifier differences are rounded to eight decimal places. (And if all predictions of the test set are correct The result will be 1)
   
-<img src="https://github.com/KodchakornL/Time-Series-Classification-of-Cryptocurrency-Price-Trend-Based-on-Omni-Scale-CNN/blob/main/Slide_ppt/Picture1.8.png" width="350" height="300" />  picture 6 Shows the critical difference diagram of OS-CNN and other models.
+<img src="https://github.com/KodchakornL/Time-Series-Classification-of-Cryptocurrency-Price-Trend-Based-on-Omni-Scale-CNN/blob/main/Slide_ppt/Picture1.8.png" width="450" height="300" />  picture 6 Shows the critical difference diagram of OS-CNN and other models.
   
 From picture 6, the critical difference diagram by data separation method shows that OS-CNN is the 3rd efficient after ROCKET and FCN (50), and the Walk forward method shows that OS-CNN is the fifth efficient after FCN (16), InceptionTime, , FCN (50), ROCKET
   
