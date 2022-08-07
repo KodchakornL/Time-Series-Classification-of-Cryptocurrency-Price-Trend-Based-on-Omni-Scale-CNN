@@ -14,7 +14,7 @@ This study was conducted to analyze cryptocurrency data. Its objective is to fin
 **1.Data sources**  
 Take the digital currency time series data from the website. www.cryptodatadownload.com The data is frequency in minutes, in terms of individual cryptocurrencies per US dollar. Volume data for the past 5 years, from January 1, 2017 at 00.00 to March 21, 2022 at 11.44 AM, with a data frequency of 1 minute, as shown in Figure 2, showing BTC data. The horizontal axis is time. and the vertical axis is the price of the cryptocurrency. Research scope, the researcher uses cryptocurrencies: 1.BTC 2.ETH 3.XRP 4.LTC 5.BNB 6.ADA 7.DOT 8.LINK shows the OHLC price time series (open price, highest price, lowest price, closing price).  
   
-<img src="https://github.com/KodchakornL/https://github.com/KodchakornL/Time-Series-Classification-of-Cryptocurrency-Price-Trend-Based-on-Omni-Scale-CNN/blob/main/Slide_ppt/Picture1.png" width="350" height="300" />  
+<img src="https://github.com/KodchakornL/Time-Series-Classification-of-Cryptocurrency-Price-Trend-Based-on-Omni-Scale-CNN/blob/main/Slide_ppt/Picture1.png" width="350" height="300" />  
   
   
 **2.Data preparation (Preprocessing of Data)**
