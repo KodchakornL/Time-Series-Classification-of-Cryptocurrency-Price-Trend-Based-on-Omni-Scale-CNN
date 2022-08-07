@@ -61,15 +61,15 @@ The OS-block can be applied to other TSC models such as the OS-CNN ensemble, for
 In overall comparison, the walk forward data preparation method performed better than the data preparation method. Normal data extraction that extracts train, validation, test data. Experiments show that OS-CNN can perform better without tuning of feature extraction scales based on OS block and OS layer OS-CNN. Based on accuracy f1-score precision recall roc auc, in some cryptocurrencies XRP, LTC, DOT, LINK, when evaluating each replica accuracy using a Critical difference diagram, the OS-CNN model is in 3rd and 5th divisions. 1st and 2nd place were the FCN (50) vs ROCKET models. In the Wilcoxon signed rank test, the FCN (50) model won every model in all of the datasets' measurements.
 
 ## Reference
-[1]  Nakamoto, S. (2008). Bitcoin: A Peer-to-Peer Electronic Cash System. 
-[2] Alexander Alexandrov et al. (2019). GluonTS: Probabilistic Time Series Models in Python. Amazon Web Services, https://doi.org/10.48550/arXiv.1906.05264
-[3] Wensi Tang et al. (2021). Rethinking 1D-CNN for Time Series Classification: A Stronger Baseline. https://doi.org/10.48550/arXiv.2002.10061
-[4] Anthony Bagnall  et al. (2017). The great time series classification bake off: a review and experimental evaluation of recent algorithmic advances. Data Mining and Knowledge Discovery 31(3):606–660, doi : 10.1007/s10618-016-0483-9
-[5] Zhiguang Wang et al. (2017). Time series classification from scratch with deep neural networks: A strong baseline, 2017 International Joint Conference on Neural Networks (IJCNN), pp. 1578-1585, doi: 10.1109/IJCNN.2017.7966039.
-[6] Hassan Ismail Fawaz et al. (2019). Deep learning for time series classification: a review. Data Min Knowl Disc 33, 917–963, https://doi.org/10.1007/s10618-019-00619-1
-[7] Do-Hyung Kwon  et al. (2019). Time Series Classification of Cryptocurrency Price Trend Based on a Recurrent LSTM Neural Network. Journal of Information Processing Systems Vol. 15, No. 3, pp. 694-706, Jun. 2019,  doi : 10.3745/JIPS.03.0120
-[8] Mohammed Mudassir et al. (2020). Time-series forecasting of Bitcoin prices using high-dimensional features: a machine learning approach. Neural Comput Appl. 2020 Jul 4:1-15. doi: 10.1007/s00521-020-05129-6.
-[9] Takuya Shintate, Lukáš Pichl (2019). Trend Prediction Classification for High Frequency Bitcoin Time Series with Deep Learning. Journal of Risk and Financial Management. , 12(1), 17,  doi : 10.3390/jrfm12010017
+[1]  Nakamoto, S. (2008). Bitcoin: A Peer-to-Peer Electronic Cash System.  
+[2] Alexander Alexandrov et al. (2019). GluonTS: Probabilistic Time Series Models in Python. Amazon Web Services, https://doi.org/10.48550/arXiv.1906.05264  
+[3] Wensi Tang et al. (2021). Rethinking 1D-CNN for Time Series Classification: A Stronger Baseline. https://doi.org/10.48550/arXiv.2002.10061  
+[4] Anthony Bagnall  et al. (2017). The great time series classification bake off: a review and experimental evaluation of recent algorithmic advances. Data Mining and Knowledge Discovery 31(3):606–660, doi : 10.1007/s10618-016-0483-9  
+[5] Zhiguang Wang et al. (2017). Time series classification from scratch with deep neural networks: A strong baseline, 2017 International Joint Conference on Neural Networks (IJCNN), pp. 1578-1585, doi: 10.1109/IJCNN.2017.7966039  
+[6] Hassan Ismail Fawaz et al. (2019). Deep learning for time series classification: a review. Data Min Knowl Disc 33, 917–963, https://doi.org/10.1007/s10618-019-00619-1  
+[7] Do-Hyung Kwon  et al. (2019). Time Series Classification of Cryptocurrency Price Trend Based on a Recurrent LSTM Neural Network. Journal of Information Processing Systems Vol. 15, No. 3, pp. 694-706, Jun. 2019,  doi : 10.3745/JIPS.03.0120  
+[8] Mohammed Mudassir et al. (2020). Time-series forecasting of Bitcoin prices using high-dimensional features: a machine learning approach. Neural Comput Appl. 2020 Jul 4:1-15. doi: 10.1007/s00521-020-05129-6  
+[9] Takuya Shintate, Lukáš Pichl (2019). Trend Prediction Classification for High Frequency Bitcoin Time Series with Deep Learning. Journal of Risk and Financial Management. , 12(1), 17,  doi : 10.3390/jrfm12010017  
 
 
 
