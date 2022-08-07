@@ -21,7 +21,7 @@ Take the digital currency time series data from the website. www.cryptodatadownl
 2.1 Input takes the closing price time series data of the cryptocurrency. Each input sequence has length j = 32, since the closing price time series of cryptocurrencies is not fixed. therefore separate the sequence from the data set first. and then apply Min-max normalization. Equation 1 xti is the data iththe closing price of
 Cryptocurrency in the input sequence of the tth time point as in Equation 1.
   
-<img src="https://github.com/KodchakornL/Time-Series-Classification-of-Cryptocurrency-Price-Trend-Based-on-Omni-Scale-CNN/blob/main/Slide_ppt/Picture1.2.png" width="350" height="200" />  
+<img src="https://github.com/KodchakornL/Time-Series-Classification-of-Cryptocurrency-Price-Trend-Based-on-Omni-Scale-CNN/blob/main/Slide_ppt/Picture1.2.png" width="500" height="200" />  
   
 where operations from min and max values ​​are applied to the xti components for all i = 1, ... . in the interval [t − 31, . . . , t].
 
