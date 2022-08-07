@@ -29,7 +29,7 @@ where operations from min and max values ​​are applied to the xti components
 Clean data (Data Cleaning) that is abnormal by using an isolation forest from the data set to format the data in an appropriate format. by taking the closing price information of cryptocurrencies
 The target is displayed as one hot vector, if it is 1 it is trending up and if it is 0 it is trending down or stable. The model is trained so that the cross-entropy loss function (minimize the cross-entropy loss function) is represented by mt. Average price over window sized movement T = 30 min. before t, then target labeling follows equation 2.
   
-<img src="https://github.com/KodchakornL/Time-Series-Classification-of-Cryptocurrency-Price-Trend-Based-on-Omni-Scale-CNN/blob/main/Slide_ppt/Picture1.3.png" width="350" height="300" />  
+<img src="https://github.com/KodchakornL/Time-Series-Classification-of-Cryptocurrency-Price-Trend-Based-on-Omni-Scale-CNN/blob/main/Slide_ppt/Picture1.3.png" width="600" height="200" />  
   
 **3.Data preparation**
 The data preparation method was used Method 1. Separate training data 70%, check data 15%, test data 15%. Method 2. Walk-forward optimization method as shown in picture 2.
