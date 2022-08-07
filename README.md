@@ -20,14 +20,15 @@ picture 1 shows BTC data, the horizontal axis is the time and the vertical axis 
   
 **2.Data preparation (Preprocessing of Data)**
   
-2.1 Input takes the closing price time series data of the cryptocurrency. Each input sequence has length j = 32, since the closing price time series of cryptocurrencies is not fixed. therefore separate the sequence from the data set first. and then apply Min-max normalization. Equation 1 xti is the data iththe closing price of
+2.1 Input  
+Input takes the closing price time series data of the cryptocurrency. Each input sequence has length j = 32, since the closing price time series of cryptocurrencies is not fixed. therefore separate the sequence from the data set first. and then apply Min-max normalization. Equation 1 xti is the data iththe closing price of
 Cryptocurrency in the input sequence of the tth time point as in Equation 1.
   
 <img src="https://github.com/KodchakornL/Time-Series-Classification-of-Cryptocurrency-Price-Trend-Based-on-Omni-Scale-CNN/blob/main/Slide_ppt/Picture1.2.png" width="600" height="150" />  
   
 where operations from min and max values ​​are applied to the xti components for all i = 1, ... . in the interval [t − 31, . . . , t].
 
-2.2 Target
+2.2 Target  
 Clean data (Data Cleaning) that is abnormal by using an isolation forest from the data set to format the data in an appropriate format. by taking the closing price information of cryptocurrencies
 The target is displayed as one hot vector, if it is 1 it is trending up and if it is 0 it is trending down or stable. The model is trained so that the cross-entropy loss function (minimize the cross-entropy loss function) is represented by mt. Average price over window sized movement T = 30 min. before t, then target labeling follows equation 2.
   
