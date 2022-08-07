@@ -64,11 +64,13 @@ Of the two methods, an epoch of 500 was used according to research by Wensi Tang
   
 From picture 6, the critical difference diagram by data separation method shows that OS-CNN is the 3rd efficient after ROCKET and FCN (50), and the Walk forward method shows that OS-CNN is the fifth efficient after FCN (16), InceptionTime, , FCN (50), ROCKET
   
-<img src="https://github.com/KodchakornL/Time-Series-Classification-of-Cryptocurrency-Price-Trend-Based-on-Omni-Scale-CNN/blob/main/Slide_ppt/Picture1.9.png" width="350" height="300" />  picture 7 Relative accuracy of OS-CNN with FCN(16), InceptionTime, ROCKET, FCN(50) models of both Method 1 Split and Method 2 Walk forward.
+<img src="https://github.com/KodchakornL/Time-Series-Classification-of-Cryptocurrency-Price-Trend-Based-on-Omni-Scale-CNN/blob/main/Slide_ppt/Picture1.9.png" width="350" height="300" />  
+picture 7 Relative accuracy of OS-CNN with FCN(16), InceptionTime, ROCKET, FCN(50) models of both Method 1 Split and Method 2 Walk forward.
   
 picture 7 compares the accuracy of the 8 crypto currencies OS-CNN model with the FCN(16), InceptionTime, ROCKET, FCN(50) models in the Critical difference diagram that ranks higher than OS-. Model 1 CNN was FCN (16). From Method 1, the extraction showed that OS-CNN was better than 1 dataset, while Method 2 Walk forward showed that FCN (16) was better than Model 3. is InceptionTime. From Method 1, data extraction found that InceptionTime was better than 1 dataset, while Method 2 Walk forward found that InceptionTime was better than Method 3, ROCKET. Based on Method 1, extracting data, ROCKET was better than Method 2, whereas Method 2 Walk forward. It was found that ROCKET was better than 6 data sets. Model 4 was FCN (50). From Method 1, data extraction showed that FCN (50) was better than 4 data sets, while Method 2, Walk forward showed that FCN (50) was good. More than 5 data sets
   
-<img src="https://github.com/KodchakornL/Time-Series-Classification-of-Cryptocurrency-Price-Trend-Based-on-Omni-Scale-CNN/blob/main/Slide_ppt/Picture1.10.png" width="350" height="300" />  Table 1 shows the results of the Pairwise counts of wins of the winning model FCN(50) with the other models.
+<img src="https://github.com/KodchakornL/Time-Series-Classification-of-Cryptocurrency-Price-Trend-Based-on-Omni-Scale-CNN/blob/main/Slide_ppt/Picture1.10.png" width="350" height="300" />  
+Table 1 shows the results of the Pairwise counts of wins of the winning model FCN(50) with the other models.  
   
 Table 1 shows the Wilcoxon signed rank test with Holm's alpha (5%) Pairwise counts of wins to test the accuracy of model differences.
   
@@ -77,8 +79,8 @@ Table 1 shows the Wilcoxon signed rank test with Holm's alpha (5%) Pairwise coun
 <img src="https://github.com/KodchakornL/Time-Series-Classification-of-Cryptocurrency-Price-Trend-Based-on-Omni-Scale-CNN/blob/main/Slide_ppt/Picture1.13.png" width="350" height="300" />  
 <img src="https://github.com/KodchakornL/Time-Series-Classification-of-Cryptocurrency-Price-Trend-Based-on-Omni-Scale-CNN/blob/main/Slide_ppt/Picture1.14.png" width="350" height="300" />  
 <img src="https://github.com/KodchakornL/Time-Series-Classification-of-Cryptocurrency-Price-Trend-Based-on-Omni-Scale-CNN/blob/main/Slide_ppt/Picture1.15.png" width="350" height="300" />  
-Table 2 shows the OS-CNN model results of accuracy, f1-score, precision, recall, roc_auc for all currencies for both Method 1 Extract and Method 2. Walk forward.
-  
+Table 2 shows the OS-CNN model results of accuracy, f1-score, precision, recall, roc_auc for all currencies for both Method 1 Extract and Method 2. Walk forward.  
+    
 From Table 2, the accuracy f1-score precision recall roc auc shows that the model performed very well in some currencies: XRP, LTC, DOT, LINK.
 
 ## Suggestions
