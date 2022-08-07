@@ -74,7 +74,7 @@ Table 1 shows the results of the Pairwise counts of wins of the winning model FC
   
 Table 1 shows the Wilcoxon signed rank test with Holm's alpha (5%) Pairwise counts of wins to test the accuracy of model differences.
   
-<img src="https://github.com/KodchakornL/Time-Series-Classification-of-Cryptocurrency-Price-Trend-Based-on-Omni-Scale-CNN/blob/main/Slide_ppt/Picture1.11.png" width="2250" height="500" />  
+<img src="https://github.com/KodchakornL/Time-Series-Classification-of-Cryptocurrency-Price-Trend-Based-on-Omni-Scale-CNN/blob/main/Slide_ppt/Picture1.11.png" width="2250" height="450" />  
 <img src="https://github.com/KodchakornL/Time-Series-Classification-of-Cryptocurrency-Price-Trend-Based-on-Omni-Scale-CNN/blob/main/Slide_ppt/Picture1.12.png" width="900" height="400" />  
 <img src="https://github.com/KodchakornL/Time-Series-Classification-of-Cryptocurrency-Price-Trend-Based-on-Omni-Scale-CNN/blob/main/Slide_ppt/Picture1.13.png" width="900" height="400" />  
 <img src="https://github.com/KodchakornL/Time-Series-Classification-of-Cryptocurrency-Price-Trend-Based-on-Omni-Scale-CNN/blob/main/Slide_ppt/Picture1.14.png" width="900" height="400" />  
