@@ -16,6 +16,7 @@ Take the digital currency time series data from the website. www.cryptodatadownl
   
 <img src="https://github.com/KodchakornL/Time-Series-Classification-of-Cryptocurrency-Price-Trend-Based-on-Omni-Scale-CNN/blob/main/Slide_ppt/Picture1.1.png" width="450" height="300" />  
 picture 1 shows BTC data, the horizontal axis is the time and the vertical axis is the price of the cryptocurrency.  
+    
   
 **2.Data preparation (Preprocessing of Data)**
   
