@@ -42,7 +42,7 @@ picture 2 Visualization of the Walk-forward method using data points in the trai
   
 From Takuya Shintate, Lukáš Pichl [9] contains l , each span of width that will move continuously. Set equal to 10,080 minutes. Within this range, k is Window size equals 30, where t is the current time. Using the data points in the Train window, represented by a green box and a Test window with a red box, one by one. Both windows will move to the right. and then start training again until the end of the time series window. By separating 15% of the previous test data and using the walk-forward method above with 70% of the practice data and 15% of the check data.
   
-**4.OS-CNN model
+**4.OS-CNN model**  
 In a time-series classification of cryptocurrency price trends using omni-scales with a CNN model based on a study by Wensi Tang et al. [3].
   
 <img src="https://github.com/KodchakornL/Time-Series-Classification-of-Cryptocurrency-Price-Trend-Based-on-Omni-Scale-CNN/blob/main/Slide_ppt/Picture1.5.png" width="250" height="250" />  picture 3 omni-scale block
